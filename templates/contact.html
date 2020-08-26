@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% block title %}Contact Us{% endblock title %}
+{% block body %}
+<div class="container-fluid my-4 px-0">
+<img class="card-img-top" src="/static/images/pic1.jpg" height=460 width=800 alt="Card image cap"> 
+</div>
+
+<div class="container">
+<h1> Contact Us </h1>
+
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="text">First Name</label>
+      <input type="email" class="form-control" id="fname" name="fname">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="text">Last Name</label>
+      <input type="email" class="form-control" id="lname" name="lname">
+    </div>
+    
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" name="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" name="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" name="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" name="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity" name="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" style="align-content: center;margin-left: 430px; margin-bottom: 43px;">Sign in</button>
+</form>
+
+
+{% endblock body %}

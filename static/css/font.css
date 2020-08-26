@@ -1,0 +1,14 @@
+h1 {
+    position: absolute;
+    top: 245px;
+    color: white;
+    left: 69px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}

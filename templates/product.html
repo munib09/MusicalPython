@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block head %} <link rel="stylesheet" href="/templates/css/font.css">
+{% endblock head %}
+{% block title %}Products{% endblock title %}
+
+{% block body %}
+ 
+
+<div class="container-fluid my-4 px-0">
+<img class="card-img-top" src="/static/images/pic6.jpg" height=460 width=800 alt="Card image cap"> 
+</div>
+<h1> Our products  </h1>
+
+<div class=" container">
+<p>
+{% lorem 5 b random %}
+</p>
+
+</div>
+
+{% endblock body %}
